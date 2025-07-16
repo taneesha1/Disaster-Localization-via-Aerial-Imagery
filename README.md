@@ -1,4 +1,4 @@
-# Disaster Scenes Classification using Custom CNN
+# Disaster Localization via Aerial Imagery
 
 This project implements a custom Convolutional Neural Network (CNN) for classifying aerial images from the AIDER dataset into emergency-related categories. The model was trained from scratch using TensorFlow/Keras and achieved competitive results without using any pretrained architecture.
 
