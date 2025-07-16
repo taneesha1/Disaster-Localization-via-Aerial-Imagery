@@ -11,7 +11,7 @@ This project implements a custom Convolutional Neural Network (CNN) for classify
 - **Train/Validation Split:**
   - **Training:** 5,469 images
   - **Validation:** 964 images
-- **Source:** AIDER Dataset — [Original Paper Link](https://arxiv.org/abs/2008.09188)
+- **Source:** AIDER Dataset — [Original Paper Link](https://ieeexplore.ieee.org/abstract/document/9050881)
 
 ---
 
@@ -26,7 +26,7 @@ A custom-designed CNN built from scratch. No transfer learning or pretrained bac
 
 ---
 
-## 🏋️‍♀Training Summary
+## Training Summary
 
 - **Epochs:** 25
 - **Optimizer:** Adam
@@ -34,7 +34,7 @@ A custom-designed CNN built from scratch. No transfer learning or pretrained bac
 - **EarlyStopping:** Enabled (patience = 5)
 - **Validation Monitoring:** `val_accuracy`
 
-### 📈 Performance
+### Performance
 
 | Metric              | Value     |
 |---------------------|-----------|
