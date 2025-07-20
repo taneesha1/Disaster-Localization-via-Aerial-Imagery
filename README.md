@@ -28,20 +28,25 @@ A custom-designed CNN built from scratch. No transfer learning or pretrained bac
 
 ## Training Summary
 
-- **Epochs:** 25
+- **Epochs:** 30
 - **Optimizer:** Adam
+- **Normalization:** Rescaling pixel values to [0, 1]
 - **Loss Function:** Sparse Categorical Crossentropy
 - **EarlyStopping:** Enabled (patience = 5)
 - **Validation Monitoring:** `val_accuracy`
 
 ### Performance
 
-| Metric              | Value     |
-|---------------------|-----------|
-| Best Train Accuracy | 84.6%     |
-| Best Val Accuracy   | 85.1%     |
-| Final Val Accuracy  | 83.4%     |
-| Best Val Epoch      | 21        |
+| Metric                  | Value           |
+|-------------------------|-----------------|
+| Best Training Accuracy  | 88.32%          |
+| Best Validation Accuracy| 88.17%          |
+| Final Validation Accuracy | 88.17%       |
+| Best Validation Loss    | 0.3671          |
+| Final Validation Loss   | 0.3864          |
+| Best Epoch              | 29(val_loss) / 30 (val_accuracy)       |
+
+
 
 > The model showed consistent improvement and did not suffer from overfitting. Validation performance closely tracked training accuracy.
 
