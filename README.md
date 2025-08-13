@@ -35,17 +35,19 @@ A custom-designed CNN built from scratch. No transfer learning or pretrained bac
 - **EarlyStopping:** Enabled (patience = 5)
 - **Validation Monitoring:** `val_accuracy`
 
-### Performance
+## Performance
 
-| Metric                  | Value           |
-|-------------------------|-----------------|
-| Best Training Accuracy  | 88.32%          |
-| Best Validation Accuracy| 88.17%          |
-| Final Validation Accuracy | 88.17%       |
-| Best Validation Loss    | 0.3671          |
-| Final Validation Loss   | 0.3864          |
-| Best Epoch              | 29(val_loss) / 30 (val_accuracy)       |
+| Metric                     | Value                           |
+|----------------------------|---------------------------------|
+| Best Training Accuracy     | 88.32% (Epoch 29)               |
+| Best Validation Accuracy   | 87.66% (Epoch 27)               |
+| Final Validation Accuracy  | 85.89% (Epoch 30)               |
+| Best Validation Loss       | 0.3802 (Epoch 27)               |
+| Final Validation Loss      | 0.4247 (Epoch 30)               |
+| Best Epoch                 | 27 (val_loss & val_accuracy)    |
 
+**Weighted F1 Score:** 0.8744  
+**Macro F1 Score:** 0.1629
 
 
 > The model showed consistent improvement and did not suffer from overfitting. Validation performance closely tracked training accuracy.
