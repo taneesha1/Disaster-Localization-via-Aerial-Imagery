@@ -47,7 +47,7 @@ A custom-designed CNN built from scratch. No transfer learning or pretrained bac
 | Best Epoch                 | 27 (val_loss & val_accuracy)    |
 
 **Weighted F1 Score:** 0.8744  
-**Macro F1 Score:** 0.1629
+**Macro F1 Score:** 0.7954
 
 
 > The model showed consistent improvement and did not suffer from overfitting. Validation performance closely tracked training accuracy.
